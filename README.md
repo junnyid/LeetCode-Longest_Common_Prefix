@@ -3,6 +3,13 @@
 
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
+My approaches 
+1. create size for strs
+2. if size is 0, return empty strings
+3. sort the array of string
+4. find minimum length
+5. find the common prefix
+
 '''
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
